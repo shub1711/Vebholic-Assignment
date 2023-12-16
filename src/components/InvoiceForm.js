@@ -75,34 +75,6 @@ const InvoiceForm = () => {
     });
   };
 
-  function reverseWords(s) {
-    let reversedString = "";
-    let word = "";
-
-    for (let i = s.length - 1; i >= 0; i--) {
-      if (s[i] !== " ") {
-        word = s[i] + word;
-      } else if (word.length > 0) {
-        reversedString += (reversedString.length > 0 ? " " : "") + word;
-        word = "";
-      }
-    }
-
-    if (word.length > 0) {
-      reversedString += (reversedString.length > 0 ? " " : "") + word;
-    }
-
-    return reversedString;
-  }
-
-  const input1 = "the sky is blue";
-  const output1 = reverseWords(input1);
-  console.log(output1);
-
-  const input2 = "  hello world  ";
-  const output2 = reverseWords(input2);
-  console.log(output2);
-
   return (
     <>
       <Box className="invoice-form-container">
