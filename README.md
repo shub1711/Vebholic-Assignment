@@ -3,8 +3,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+<img width="1440" alt="Screenshot 2023-12-16 at 3 10 39 PM" src="https://github.com/shub1711/Calculator/assets/74972376/ef1940be-00b7-441e-98c6-635771c45517">
 
 In the project directory, you can run:
+
+### `Screenshot`
+
+
+### `Video Demo`
+
+
+https://github.com/shub1711/Calculator/assets/74972376/1c6833bc-50fc-4e48-9236-154cc42a33f8
+
+
 
 ### `npm start`
 
